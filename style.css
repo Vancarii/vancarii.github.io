@@ -9,12 +9,55 @@ body {
   align-items: center;
   align-content: space-evenly;
   /* background: linear-gradient(to right, #f0f0f0 50%, rgb(0, 97, 68) 50%); */
-  background-image: url("space.jpg");
+  background-image: url("trees1.jpg");
   background-size: cover;
   padding: 20px;
   box-sizing: border-box;
   border: 15px solid rgba(178, 178, 178, 0.455);
   box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.5);
+  cursor: none;
+}
+
+.topnav {
+  overflow: hidden;
+  /* flex-direction: row; */
+  position: fixed;
+  top: 70px;
+  left: 70px;
+  width: 100%;
+}
+
+.logo {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #005454;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: none;
+}
+
+.footer {
+  overflow: hidden;
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+  text-align: right;
+  flex-direction: column;
+}
+
+.footer-content {
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
   cursor: none;
 }
 
@@ -111,14 +154,17 @@ span {
 /* Cursor design */
 
 nav {
+  position: fixed;
+  top: 70px;
+  right: 70px;
   display: flex;
   align-items: center;
-  background: #fff;
+  background: #ffffff7f;
   padding: 20px 15px;
   z-index: 2;
   /* margin-top: 50vh; */
   border-radius: 12px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.387);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.171);
 }
 
 .hover-this {
@@ -130,10 +176,8 @@ nav {
   display: inline-block;
   font-family: "Source Code Pro", monospace;
   font-weight: 600;
-  color: #000000;
-  font-size: 1.5vw;
-
-  background-color: #fff;
+  color: #004c54;
+  font-size: 1.2vw;
   text-transform: uppercase;
   pointer-events: none;
   transition: transform 0.1s linear;
