@@ -46,11 +46,6 @@ body {
   flex-direction: column;
 }
 
-.footer-content {
-  flex-direction: row;
-  align-items: center;
-}
-
 .footer-text {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
@@ -73,24 +68,27 @@ body {
 
 .container {
   height: 100vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
+  width: 100vw;
+  /* display: flex; */
+  position: fixed;
+  /* top: 50%; */
+  left: 0;
   align-items: center;
-  justify-content: space-around;
   cursor: none;
 }
 
-.center-section {
+.main {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  background: #ffffff;
-  padding: 20px 15px;
-  z-index: 3;
-  /* margin-top: 50vh; */
-  border-radius: 12px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  left: 0;
+  width: 100vw;
+}
+
+.content {
+  position: fixed;
+  top: 100vw;
+  left: 70px;
 }
 
 button {

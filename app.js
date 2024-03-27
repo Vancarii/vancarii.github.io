@@ -52,18 +52,18 @@ function handleWindowResize() {
 
 $(document).ready(function () {
   $("#btn-home").click(function () {
-    $("#content").html("<p>Hello</p>");
+    $("#content").load("/pages/home.html");
   });
 
   $("#btn-projects").click(function () {
-    $("#content").load("/pages/projects.html");
+    $("#content").load("/pages/projects/projects.html");
   });
 
   $("#btn-about").click(function () {
-    $("#content").html("<p>Page 3.</p>");
+    $("#content").load("/pages/about.html");
   });
   $("#btn-contact").click(function () {
-    $("#content").html("<p>This is content for Page 3.</p>");
+    $("#content").load("/pages/contact.html");
   });
 });
 
