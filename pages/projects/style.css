@@ -34,7 +34,13 @@ code {
     monospace;
 }
 
+a {
+  color: #06412f; /* Replace with your desired color */
+}
+
 .nft {
+  cursor: none;
+
   align-items: flex-start;
   justify-content: flex-start;
   margin: 15px;

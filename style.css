@@ -119,13 +119,13 @@ button {
 .left {
   color: #004c54;
   float: left;
-  /* transform: skew(0deg, 0deg); */
 }
+
 .right {
   color: rgb(255, 255, 255);
   float: right;
-  /* transform: skew(0deg, 0deg); */
 }
+
 .left .content {
   width: 100vw;
   text-align: center;
