@@ -97,6 +97,7 @@ button {
 }
 
 .subtitle {
+  padding-left: 50px;
   display: inline-block;
   font-family: "Source Code Pro", monospace;
   font-optical-sizing: auto;
