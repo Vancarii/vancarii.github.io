@@ -519,10 +519,10 @@ img {
   .about__data {
     padding: 1rem;
     border: 1px solid #ffffff66;
-      background-color: #030b1a;
+      /* background-color: #030b1a;
       background: linear-gradient(0deg,
           rgb(149, 161, 186) 0%,
-          rgba(199, 238, 233, 0.5) 100%);
+          rgba(199, 238, 233, 0.5) 100%); */
       box-shadow: 0 7px 20px 5px #00000088;
       border-radius: 1rem;
       backdrop-filter: blur(7px);
@@ -531,6 +531,7 @@ img {
 
 .about__description {
   text-align: center;
+  color: var(--first-color);
   /* margin-bottom: var(--mb-2-5); */
   /* color: var(-); */
 }
@@ -987,6 +988,33 @@ img {
   opacity: 1;
   visibility: visible;
 }
+/*==================== DOWNLOAD RESUME ====================*/
+
+.download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+}
+
+.download__container {
+  padding: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid #ffffff66;
+  /* background-color: #030b1a; */
+  /* background: linear-gradient(0deg,
+      rgb(149, 161, 186) 0%,
+      rgba(199, 238, 233, 0.5) 100%); */
+  box-shadow: 0 7px 20px 5px #00000088;
+  border-radius: 1rem;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+
+}
 
 /*==================== PORTFOLIO ====================*/
 .portfolio__container {
@@ -997,7 +1025,14 @@ img {
   padding: 0 1.5rem;
 }
 
-.portfolio__img {
+.portfolio__img__vert {
+  /* width: 265px; */
+  height: 265px;
+  /* border-radius: .5rem; */
+  justify-self: center;
+}
+
+.portfolio__img__hor {
   width: 265px;
   /* border-radius: .5rem; */
   justify-self: center;
@@ -1058,6 +1093,8 @@ img {
   outline: none;
 }
 
+
+
 /*==================== PROJECT IN MIND ====================*/
 .project {
   text-align: center;
@@ -1065,7 +1102,7 @@ img {
 
 .project__bg {
   background-color: var(--first-color-second);
-  padding-top: 3rem;
+  /* padding-top: 3rem; */
 }
 
 .project__title {
