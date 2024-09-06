@@ -168,14 +168,14 @@ img {
   height: auto;
 }
 
-hr {
+/* hr {
   width: 10rem;
   background-color: var(--first-color);
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section {
